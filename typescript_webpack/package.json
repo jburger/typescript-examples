@@ -1,0 +1,25 @@
+{
+  "name": "typescript_webpack",
+  "version": "1.0.0",
+  "description": "example implementation for webpack and typescript",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/http-server/bin/http-server",
+    "build": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "esmangle-webpack-plugin": "0.0.1",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.11.0",
+    "gulp-uglify": "^1.5.2",
+    "ts-loader": "^0.8.1",
+    "uglify": "^0.1.5",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}
