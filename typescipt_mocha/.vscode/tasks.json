@@ -1,0 +1,10 @@
+{
+    "version": "0.1.0",
+    "command": "gulp.cmd",
+    "isShellOutput": true,
+    "showOutput": "silent",
+    "tasks": [ 
+        { "taskName": "build", "isBuildCommand": true, "problemMatcher": "$gulp-tsc" },
+        { "taskName": "default", "isTestCommand": true }
+    ]
+}
