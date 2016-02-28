@@ -1,0 +1,1 @@
+{"C:\\src\\jb\\examples\\typescript_mocha\\gulpfile.js":{"sha1":"91d06db5d5244e4df5299561b01841a96f218621","tasks":{"build":{"name":"build","dependencies":""},"test":{"name":"test","dependencies":""},"default":{"name":"default","dependencies":"build test"}}}}

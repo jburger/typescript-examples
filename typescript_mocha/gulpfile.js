@@ -15,7 +15,7 @@ gulp.task('build', function() {
 gulp.task('test', function() {
     return gulp.src('./test/**/*.ts', { base: '.' })
     .pipe(ts(tsProject))
-    //.pipe(gulp.dest('.'))
+    .pipe(gulp.dest('.'))
     .pipe(mocha({
         reporter: 'progress'
     }));

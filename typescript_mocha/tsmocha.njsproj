@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{0c4326bb-357e-4fb2-ad20-4d74f2ea981a}</ProjectGuid>
+        <ProjectHome />
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile>gulpfile.js</StartupFile>
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <TypeScriptSourceMap>true</TypeScriptSourceMap>
+        <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+        <EnableTypeScript>true</EnableTypeScript>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="package.json" />
+        <Content Include="tsconfig.json" />
+        <Content Include="typings.json" />
+        <Content Include="readme.md" />
+        <Compile Include="gulpfile.js" />
+        <TypeScriptCompile Include="test\MathHelperTests.ts" />
+        <Compile Include="test\MathHelperTests.js" />
+        <TypeScriptCompile Include="typings\browser.d.ts" />
+        <TypeScriptCompile Include="typings\main.d.ts" />
+        <TypeScriptCompile Include="src\pesky_folder\MathHelper.ts" />
+        <Compile Include="src\pesky_folder\MathHelper.js" />
+        <TypeScriptCompile Include="typings\browser\ambient\chai\chai.d.ts" />
+        <TypeScriptCompile Include="typings\browser\ambient\gulp\gulp.d.ts" />
+        <TypeScriptCompile Include="typings\browser\ambient\mocha\mocha.d.ts" />
+        <TypeScriptCompile Include="typings\browser\ambient\node\node.d.ts" />
+        <TypeScriptCompile Include="typings\browser\ambient\orchestrator\orchestrator.d.ts" />
+        <TypeScriptCompile Include="typings\browser\ambient\Q\Q.d.ts" />
+        <TypeScriptCompile Include="typings\main\ambient\chai\chai.d.ts" />
+        <TypeScriptCompile Include="typings\main\ambient\gulp\gulp.d.ts" />
+        <TypeScriptCompile Include="typings\main\ambient\mocha\mocha.d.ts" />
+        <TypeScriptCompile Include="typings\main\ambient\node\node.d.ts" />
+        <TypeScriptCompile Include="typings\main\ambient\orchestrator\orchestrator.d.ts" />
+        <TypeScriptCompile Include="typings\main\ambient\Q\Q.d.ts" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="src" />
+        <Folder Include="src\pesky_folder" />
+        <Folder Include="test" />
+        <Folder Include="typings" />
+        <Folder Include="typings\browser" />
+        <Folder Include="typings\browser\ambient" />
+        <Folder Include="typings\browser\ambient\chai" />
+        <Folder Include="typings\browser\ambient\gulp" />
+        <Folder Include="typings\browser\ambient\mocha" />
+        <Folder Include="typings\browser\ambient\node" />
+        <Folder Include="typings\browser\ambient\orchestrator" />
+        <Folder Include="typings\browser\ambient\Q" />
+        <Folder Include="typings\main" />
+        <Folder Include="typings\main\ambient" />
+        <Folder Include="typings\main\ambient\chai" />
+        <Folder Include="typings\main\ambient\gulp" />
+        <Folder Include="typings\main\ambient\mocha" />
+        <Folder Include="typings\main\ambient\node" />
+        <Folder Include="typings\main\ambient\orchestrator" />
+        <Folder Include="typings\main\ambient\Q" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+    <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>

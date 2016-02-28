@@ -1,0 +1,1 @@
+c:\src\jb\examples\typescript_mocha\obj\Debug\tsmocha.njsprojResolveAssemblyReference.cache
