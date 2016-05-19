@@ -1,4 +1,4 @@
-# Typescript testing workflow examples from my blog: blog.theburge.co
+# Typescript testing workflow examples
 
 You'll find typescript centric examples on:
 - using webpack to bundle and minify your typescript files
