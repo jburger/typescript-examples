@@ -6,6 +6,8 @@
 npm install -g gulp typescript typings
 #package restore
 npm install
+#install typescript library definitions
+typings install
 ```
 To run tests:
 

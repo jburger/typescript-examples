@@ -5,18 +5,18 @@
   "author": "Jim Burger",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "del": "^2.2.0",
-    "gulp": "^3.9.1",
-    "gulp-istanbul": "^0.10.3",
-    "gulp-mocha": "^2.2.0",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-tslint": "^4.3.2",
-    "gulp-typescript": "^2.12.0",
-    "istanbul": "^0.4.2",
-    "mocha": "^2.4.5",
-    "orchestrator": "^0.3.7",
-    "remap-istanbul": "^0.5.1",
-    "tslint": "^3.5.0"
+    "chai": "3.5.0",
+    "del": "2.2.0",
+    "gulp": "3.9.1",
+    "gulp-istanbul": "0.10.4",
+    "gulp-mocha": "2.2.0",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-tslint": "5.0.0",
+    "gulp-typescript": "2.13.4",
+    "istanbul": "0.4.3",
+    "mocha": "2.4.5",
+    "orchestrator": "0.3.7",
+    "remap-istanbul": "0.6.4",
+    "tslint": "3.10.2"
   }
 }
