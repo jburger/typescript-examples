@@ -1,0 +1,6 @@
+typings/
+node_modules/
+*.exe
+*.bin
+*.dat
+src/**/*.map
