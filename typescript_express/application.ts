@@ -3,7 +3,7 @@ import express = require("express");
 import customerRoute = require("./routes/customerRoute");
 import requestLogger = require("./middleware/requestLogger");
 
-export class GetPackApi {
+export class WebApi {
     /**
      * @param app - express application
      * @param port - port to listen on
