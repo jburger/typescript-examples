@@ -33,7 +33,7 @@ import express = require("express");
 import customerRouter = require("./routes/customerRouter");
 import requestLogger = require("./middleware/requestLogger");
 
-export class GetPackApi {
+export class WebApi {
     /**
      * @param app - express application
      * @param port - port to listen on
@@ -96,10 +96,10 @@ export = requestLogger;
 _Program entry point_
 ```javascript
 import express = require('express');
-import { GetPackApi } from './application';
+import { WebApi } from './application';
 
 let port = 5001; //or from a configuration file
-let gp = new GetPackApi(express(), port);
-gp.run();
+let api = new WebApi(express(), port);
+api.run();
 console.info(`listening on ${port}`);
 ```
